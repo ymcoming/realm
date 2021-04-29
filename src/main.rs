@@ -1,10 +1,13 @@
 use tokio;
-mod udp;
+use tokio::runtime::Builder;
+use tokio::task;
 mod relay;
 mod resolver;
+mod udp;
 
-#[tokio::main]
-async fn main() {
+fn main() {
     let relay_configs = realm::parse_arguments();
-    relay::start_relay(relay_configs).await;
+    let rt = Builder::new_current_thread().enable_all().build().unwrap();
+    let local = task::LocalSet::new();
+    rt.block_on(local.run_until(relay::start_relay(relay_configs)));
 }
