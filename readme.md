@@ -50,4 +50,4 @@ systemctl status realm
  
  新链接：https://cdn.jsdelivr.net/gh/ymcoming/rinetd/install.sh
  
- https://github.com/ymcoming/realm/realm.sh
+ https://cdn.jsdelivr.net/gh/ymcoming/realm/realm.sh
