@@ -35,7 +35,7 @@ systemctl status realm
 
 国内站点安装方法：
 
-wget https://github.com.cnpmjs.org/ymcoming/realm/releases/download/V1.2.1/realm.sh && chmod +x ./realm.sh && ./realm.sh
+wget https://cdn.jsdelivr.net/gh/ymcoming/realm@1.2.0/realm.sh && chmod +x ./realm.sh && ./realm.sh
 
 systemctl restart realm
 
@@ -48,6 +48,4 @@ systemctl status realm
 
  原链接：https://github.com/ymcoming/rinetd/blob/main/install.sh
  
- 新链接：https://cdn.jsdelivr.net/gh/ymcoming/rinetd/install.sh
- 
- https://cdn.jsdelivr.net/gh/ymcoming/realm/realm.sh
+ https://cdn.jsdelivr.net/gh/ymcoming/realm@1.2.0/realm.sh
