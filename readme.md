@@ -48,4 +48,4 @@ systemctl status realm
 
  原链接：https://github.com/ymcoming/rinetd/blob/main/install.sh
  
- https://cdn.jsdelivr.net/gh/ymcoming/realm@1.2.2/realm.sh
+ https://www.jsdelivr.com/package/gh/ymcoming/realm
