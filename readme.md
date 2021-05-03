@@ -35,7 +35,7 @@ systemctl status realm
 
 国内站点安装方法：
 
-wget https://raw.githubusercontent.com/ymcoming/realm/master/realm.sh && chmod +x ./realm.sh && ./realm.sh
+wget https://github.com.cnpmjs.org/ymcoming/realm/releases/download/V1.2.1/realm.sh && chmod +x ./realm.sh && ./realm.sh
 
 systemctl restart realm
 
