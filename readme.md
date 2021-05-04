@@ -44,8 +44,4 @@ systemctl status realm
 
 1、https://github.com.cnpmjs.org 替代 https://github.com
 
-2、举例替换
-
- 原链接：https://github.com/ymcoming/rinetd/blob/main/install.sh
- 
- https://www.jsdelivr.com/package/gh/ymcoming/realm
+2、https://www.jsdelivr.com/package/gh/ymcoming/realm
